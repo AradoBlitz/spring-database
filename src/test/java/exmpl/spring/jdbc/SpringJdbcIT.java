@@ -10,9 +10,6 @@ import exmpl.spring.data.Greeting;
 
 public class SpringJdbcIT {
 
-	@Autowired
-	private GreetingDao greetingDao;
-	
 	@Test
 	public void helloWorldGreeting() throws Exception {
 		ApplicationContext context = new ClassPathXmlApplicationContext("Spring-Module.xml");
